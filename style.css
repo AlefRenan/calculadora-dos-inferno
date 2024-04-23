@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #102030;
+}
+
+#principal {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#botoes {
+  display: flex;
+  height: 150px;
+  width: 180px;
+  color: white;
+  padding: 10px;
+  background-color: rgb(2, 16, 48);
+}
+
+#conta,
+#numbers {
+  display: inline-block;
+  width: 110px;
+}
+#txt1 {
+  margin-top: 300px;
+  color: rgb(2, 16, 48);
+  height: 15px;
+  width: 192px;
+}
+.linha1,
+.linha2,
+.linha3,
+.grupo1,
+.grupo2 {
+  width: 80px;
+  padding: 10px;
+}
+.zero {
+  margin-left: 10px;
+  width: 80px;
+}
+.bt,
+.zero {
+  background-color: #102030;
+  color: white;
+}
